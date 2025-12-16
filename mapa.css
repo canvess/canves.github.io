@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: #f9fff2;
+}
+
+.mapa-container {
+    position: relative;
+    width: fit-content;
+    margin: 40px auto;
+}
+
+.mapa-img {
+    width: 1000px;
+    height: auto;
+    display: block;
+}
+
+.titulo-mapa {
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #4b2b00;
+    font-size: 34px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px white;
+}
+
+.btn-area {
+    position: absolute;
+    padding: 7px 15px;
+    background: #f4e4c1;
+    border: 2px solid #4b2b00;
+    border-radius: 18px;
+    color: #4b2b00;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn-area:hover {
+    background: #fff0d0;
+    transform: scale(1.08);
+}
+
+.Deserto {
+    top: 450px;
+    left: 80px;
+}
+
+.Aquatico {
+    top: 240px;
+    left: 760px;
+}
+
+.Floresta {
+    top: 390px;
+    left: 660px;
+}
+.Fazenda {
+    top: 340px;
+    left: 510px;
+}
+
+.Parque {
+    top: 405px;
+    left: 265px;
+}
+
+.Girafas {
+    top: 240px;
+    left: 240px;
+}
+body::-webkit-scrollbar {
+    width: 10px;               
+}
+
+body::-webkit-scrollbar-track {
+    background: #f0f0f0;     
+    border-radius: 4px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #5C4738; 
+    border-radius: 6px;
+    border: 3px solid #f0f0f0; 
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #7a5c44; 
+}
